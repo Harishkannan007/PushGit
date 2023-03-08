@@ -1,0 +1,238 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+}
+.App{
+  background-image: url('https://th.bing.com/th/id/R.b25359823548cca21e2d3f93ddbcc057?rik=%2bmN8Qbv35yd40A&riu=http%3a%2f%2fwww.powerfultools4life.com%2fresources%2fcolours+chakra.jpg&ehk=UvWKFJ3nBnGq7A9Gpyy91tq85lGXU3IRG15vfOd9Onw%3d&risl=&pid=ImgRaw&r=0');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+thead {
+  background-color: #f2f2f2;
+  
+  background-size: cover;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #281919;
+
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+.sign-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.sign-label {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.sign-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+}
+
+.login-label {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+}
+
+.login-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
+.sign-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sign-label {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.sign-input {
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.update-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.update-button:hover {
+  background-color: #0062cc;
+}
+
+.delete-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.delete-label {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.delete-input {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.sign-form,
+.delete-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sign-label,
+.delete-label {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.sign-input,
+.delete-input {
+  padding: 5px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-button,
+.delete-button,
+.update-button {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-button:hover,
+.delete-button:hover,
+.update-button:hover {
+  background-color: #3e8e41;
+}
